@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Cafe em HTML e CSS</title>
+    <title>Pagina para um Cafe em HTML e CSS</title>
     <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
     <link rel="stylesheet" href="css/coofe.css">
@@ -16,39 +16,36 @@
         <div class="tm-left-inner">
           <div class="tm-site-header">
             <i class="fas fa-coffee fa-3x tm-site-logo"></i>
-            <h1 class="tm-site-name">Café</h1>
+            <h1 class="tm-site-name">Doçe Café</h1>
           </div>
 
           <nav class="tm-site-nav">
-            <ul class="tm-site-nav-ul">
+
+            <li class="tm-page-nav-item">
+              <a href="#about" class="tm-page-link">
+                <i class="fas fa-users tm-page-link-icon"><span> Quem somos</span></i>
+              </a>
+            </li>
+           
               <li class="tm-page-nav-item">
                 <a href="#drink" class="tm-page-link active">
-                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
-                  <span>Menu de Drink</span>
-                </a>
-              </li>
-
-              <li class="tm-page-nav-item">
-                <a href="#about" class="tm-page-link">
-                  <i class="fas fa-users tm-page-link-icon"></i>
-                  <span>Sobre nós</span>
+                  <i class="fas fa-mug-hot tm-page-link-icon"><span> Menu de Bebidas </span></i>                
                 </a>
               </li>
 
               <li class="tm-page-nav-item">
                 <a href="#special" class="tm-page-link">
-                  <i class="fas fa-glass-martini tm-page-link-icon"></i>
-                  <span>Itens Especiais</span>
+                  <i class="fas fa-glass-martini tm-page-link-icon"><span> Especialidades da Casa</span></i>
                 </a>
               </li>
 
               <li class="tm-page-nav-item">
                 <a href="#contact" class="tm-page-link">
-                  <i class="fas fa-comments tm-page-link-icon"></i>
-                  <span>Contato</span>
+                  <i class="fas fa-comments tm-page-link-icon"><span> Entre em contato</span></i>
                 </a>
               </li>
-            </ul>
+
+           
           </nav>
         </div>        
       </div>
@@ -59,13 +56,13 @@
             <nav class="tm-black-bg tm-drinks-nav">
               <ul>
                 <li>
-                  <a href="#" class="tm-tab-link active" data-id="cold">Café gelado</a>
+                  <a href="#" class="tm-tab-link active" data-id="cold">Capuccino Gelado</a>
                 </li>
                 <li>
-                  <a href="#" class="tm-tab-link" data-id="hot">Café quente</a>
+                  <a href="#" class="tm-tab-link" data-id="hot">Capuccino Quente</a>
                 </li>
                 <li>
-                  <a href="#" class="tm-tab-link" data-id="juice">Suco de frutas</a>
+                  <a href="#" class="tm-tab-link" data-id="juice">Suco de Frutas Naturais</a>
                 </li>
               </ul>
             </nav>
@@ -75,32 +72,32 @@
                 <div class="tm-list-item">          
                   <img src="img/iced-americano.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Americano gelado<span class="tm-list-item-price">R$20.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma breve descrição do primeiro item. O modelo de Cafe gelado.</p>
+                    <h3 class="tm-list-item-name">Café com Limão<span class="tm-list-item-price">R$ 12,99</span></h3>
+                    <p class="tm-list-item-description">Café gelado com limão, gelo e hotelã.</p>
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/iced-cappuccino.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Capuccino Gelado<span class="tm-list-item-price">R$12.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma lista de 4 itens ou adicione mais. Você pode usar este modelo para fins comerciais.</p>
+                    <h3 class="tm-list-item-name">Capuccino Gelado<span class="tm-list-item-price">R$18.99</span></h3>
+                    <p class="tm-list-item-description">Capuccino gelado com raspas de chocolate .</p>
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/iced-espresso.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Café expresso gelado<span class="tm-list-item-price">R$14.25</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma breve descrição, Café expresso gelado.</p>
+                    <h3 class="tm-list-item-name">Café Expresso Gelado<span class="tm-list-item-price">R$16.99</span></h3>
+                    <p class="tm-list-item-description">Café expresso gelado com calda de caramelo e chantilly.</p>
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Café com leite gelado<span class="tm-list-item-price">R$11.50</span></h3>
-                    <p class="tm-list-item-description">O conteúdo é organizado em 3 guias. Por favor <a href="https://www.tooplate.com/contact" rel="nofollow" target="_parent">entre em contato com a Tooplate</a> se você tiver alguma duvida.</p>
+                    <h3 class="tm-list-item-name">Café com Leite Gelado<span class="tm-list-item-price">R$12.99</span></h3>
+                    <p class="tm-list-item-description">Desfrute de uma experiência refrescante e sofisticada com nosso Café com Leite Gelado. A combinação perfeita do café encorpado e aromático encontra a suavidade aveludada do leite.</p> 
                   </div>
                 </div>                         
               </div>
@@ -111,32 +108,32 @@
                 <div class="tm-list-item">          
                   <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Americano<span class="tm-list-item-price">R$8.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma breve descrição do item junto com uma miniatura.</p>              
+                    <h3 class="tm-list-item-name">Café Quente<span class="tm-list-item-price">R$6.99</span></h3>
+                    <p class="tm-list-item-description">Aqui está o tradicional café quente.</p>              
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Cappuccino<span class="tm-list-item-price">R$9.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma lista de 4 itens que você pode adicionar mais conforme necessário. Apenas a área de conteúdo estará rolando.</p>                    
+                    <h3 class="tm-list-item-name">Cappuccino Quente<span class="tm-list-item-price">R$10.99</span></h3>
+                    <p class="tm-list-item-description">O tradicional capuccino com raspas do verdadeiro cafe arábico.</p>                    
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Espresso<span class="tm-list-item-price">R$7.50</span></h3>
-                    <p class="tm-list-item-description">O logotipo do lado esquerdo e o menu principal são fixos. O fundo do vídeo é fixo.</p>              
+                    <h3 class="tm-list-item-name">Capuccino Espresso<span class="tm-list-item-price">R$8.99</span></h3>
+                    <p class="tm-list-item-description">Um cappuccino é uma bebida italiana feita com café espresso, leite vaporizado e espuma de leite.</p>              
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Café com leite quente<span class="tm-list-item-price">R$6.50</span></h3>
-                    <p class="tm-list-item-description">O conteúdo da página é organizado em 3 guias para mostrar diferentes listas de itens.</p>              
+                    <h3 class="tm-list-item-name">Capuccino com Leite Quente<span class="tm-list-item-price">R$12.99</span></h3>
+                    <p class="tm-list-item-description">O cappuccino com leite quente é uma bebida clássica e reconfortante, conhecida pelo seu equilíbrio e cremosidade.</p>              
                   </div>
                 </div>              
               </div>
@@ -147,32 +144,32 @@
                 <div class="tm-list-item">          
                   <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Batido de Morango<span class="tm-list-item-price">R$12.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma breve descrição do item junto com uma miniatura quadrada.</p>              
+                    <h3 class="tm-list-item-name">Suco de Morango Cremoso<span class="tm-list-item-price">R$14.99</span></h3>
+                    <p class="tm-list-item-description">Suco de Morango Cremoso, uma bebida refrescante e indulgente, preparada com morangos frescos, batidos com um toque de cremosidade .</p>              
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Smoothie de frutas vermelhas<span class="tm-list-item-price">R$14.50</span></h3>
-                    <p class="tm-list-item-description">Aqui está uma lista de 4 itens ou adicione mais. Você pode usar este modelo para fins comerciais.</p>                    
+                    <h3 class="tm-list-item-name">Smoothie de Frutas Vermelhas<span class="tm-list-item-price">R$20.99</span></h3>
+                    <p class="tm-list-item-description">Smoothie de frutas vermelhas cremosa, não alcoólica, com frutas frescas, batidas com iogurte, leite ou sorvete.</p>                    
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Batido de Abacaxi<span class="tm-list-item-price">R$16.50</span></h3>
-                    <p class="tm-list-item-description">O logotipo do lado esquerdo e o menu principal são fixos. O fundo do vídeo é fixo.</p>              
+                    <h3 class="tm-list-item-name">Suco de Abacaxi<span class="tm-list-item-price">R$17.99</span></h3>
+                    <p class="tm-list-item-description"> Este suco gourmet combina a doçura natural e cítrica do abacaxi maduro com a fragrância inigualável e o frescor vibrante da hortelã.</p>              
                   </div>
                 </div>
 
                 <div class="tm-list-item">          
                   <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Batido de espinafre<span class="tm-list-item-price">$R18.50</span></h3>
-                    <p class="tm-list-item-description">Esta pagina e som um modelo em outros sites de modelo.</p>              
+                    <h3 class="tm-list-item-name">Suco de Espinafre<span class="tm-list-item-price">$R22.99</span></h3>
+                    <p class="tm-list-item-description">Suco de espinafre com laranja é uma bebida nutritiva e refrescante, conhecida por ser uma excelente fonte de vitaminas e minerais. A combinação do ferro do espinafre com a vitamina C da laranja.</p>              
                   </div>
                 </div>              
               </div>
@@ -181,12 +178,12 @@
 
           <div id="about" class="tm-page-content">
             <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
-              <h2 class="tm-text-primary tm-about-header">Sobre Café</h2>
+              <h2 class="tm-text-primary tm-about-header">Sobre o Café</h2>
               <div class="tm-list-item tm-list-item-2">                
                 <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
                 <div class="tm-list-item-text-2">
-                  <p>Esta pagina Cafe é um modelo em HTML e CSS com fundo de vídeo de uma página da Tooplate. Você pode usar como modelo para sites de sua empresa.</p>
-                  <p>Você também pode usar isso para os sites de seus clientes, pelos quais você é pago pelos serviços de seu site. Por favor, conte a seus amigos sobre nós.</p>
+                  <p>“ Mais do que café, servimos aconchego ”.</p>
+                  <p>Somos uma cafeteria gourmet especializada nos melhores cappuccinos quentes e frios da região, estamo aqui para servi-lo no que ha de melhor, a 20 anos trazendo o que a de melhor.</p>
                 </div>                
               </div>
             </div>
@@ -195,7 +192,7 @@
               <div class="tm-list-item tm-list-item-2">                
                 <div class="tm-list-item-text-2">
                   <h2 class="tm-text-primary">Como começamos</h2>
-                  <p>Esta pagina é um tamplate que voçe pode copiar e modificar de acordo com suas necessidades. Obrigado.</p>                  
+                  <p>" A Doçe Café começou com uma simples paixão por uma xícara de café perfeita. Em 2005, na nossa pequena cozinha torrava grãos em uma máquina caseira, buscando o aroma e o sabor ideais. O que era um hobby virou obsessão, e logo, decidimos compartilhar essa busca com o mundo. Hoje, mantemos o mesmo cuidado artesanal e a dedicação de sempre, mas em um espaço onde todos são bem-vindos para saborear o resultado desse sonho. " Obrigado.</p>                  
                 </div>   
                              
                 <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">                
@@ -208,48 +205,45 @@
               <div class="tm-black-bg tm-special-item">
                 <img src="img/special-01.jpg" alt="Image">
                 <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Especial</h2>
-                  <p class="tm-special-item-text">Aqui está uma breve descrição do que voçe pode usar.</p>  
+                  <h2 class="tm-text-primary tm-special-item-title">Especial Moda da Casa</h2>
+                  <p class="tm-special-item-text">Escolha seu suco de acordo com seu paladar.</p>  
+                  <span class="tm-list-item-price">$R22.99</span>
                 </div>
-              </div>
-
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-02.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Segundo item</h2>
-                  <p class="tm-special-item-text">Você tem permissão para baixar, modificar e usar este modelo para seus sites comerciais ou não comerciais.</p>  
-                </div>
-              </div>
+              </div>                      
 
               <div class="tm-black-bg tm-special-item">
                 <img src="img/special-03.jpg" alt="Image">
                 <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Terceiro Item Especial</h2>
-                  <p class="tm-special-item-text">Hamburguer artesal, nosso carro chefe.</p>  
+                  <h2 class="tm-text-primary tm-special-item-title">Hamburguer Artesal na Brasa</h2>
+                  <p class="tm-special-item-text">Venha experimentar o artesanal na brasa, mais saudaves, mais suculento.</p>  
+                  <span class="tm-list-item-price">$R28.99</span>
                 </div>
               </div>
 
               <div class="tm-black-bg tm-special-item">
                 <img src="img/special-04.jpg" alt="Image">
                 <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Item Especial Quarto</h2>
-                  <p class="tm-special-item-text">Rosas e glace para decorar seu bolo.</p>  
+                  <h2 class="tm-text-primary tm-special-item-title">Bolos de diveros sabores</h2>
+                  <p class="tm-special-item-text">Venha experimentar o melhor bolo da região, fatias ou por kg.</p> 
+                  <span class="tm-list-item-price">$R32.99/kg</span> 
                 </div>
               </div>  
 
               <div class="tm-black-bg tm-special-item">
                 <img src="img/special-05.jpg" alt="Image">
                 <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Sexto Sentido</h2>
-                  <p class="tm-special-item-text">Aqui está uma breve descrição de texto para o sexto item. Este texto tem quatro linhas.</p>  
+                  <h2 class="tm-text-primary tm-special-item-title">Drinks sem Alcool</h2>
+                  <p class="tm-special-item-text">Uma combinação refrescante de frutas tropicais e toques cítricos, perfeita para quem busca sabor e leveza sem álcool.</p>
+                  <span class="tm-list-item-price">$R12.99</span>  
                 </div>
               </div>
 
               <div class="tm-black-bg tm-special-item">
                 <img src="img/special-06.jpg" alt="Image">
                 <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Sétimo item</h2>
-                  <p class="tm-special-item-text">Mais uma novidade criada pelo nosso cheff.</p>  
+                  <h2 class="tm-text-primary tm-special-item-title">Esfihas Artesanais Abertas</h2>
+                  <p class="tm-special-item-text">Massa artesanal de fermentação leve, aberta à mão e assada até atingir o ponto perfeito de crocância. Recheios preparados com ingredientes premium, resultando em uma experiência única de sabor e textura.</p>  
+                  <span class="tm-list-item-price">$R3.99 cada</span>
                 </div>
               </div>                      
             </div>            
@@ -258,13 +252,13 @@
           <div id="contact" class="tm-page-content">
             <div class="tm-black-bg tm-contact-text-container">
               <h2 class="tm-text-primary">Contato</h2>
-              <p>O modelo Cafe tem um fundo de vídeo. Você pode usar esse layout para seus sites. Entre em contato com o desenvolvedor da pagina, conte aos seus amigos sobre nosso site.</p>
+              <p>O modelo desta pagina Cafe pode ser usado para seus sites. Entre em contato com o desenvolvedor da pagina pelo email- mauriciobrambila2015@gmail.com, conte aos seus amigos sobre nosso site e solicite o código. Esta pagina foi desenvolvida em HTML e CSS.</p>
             </div>
             
             <div class="tm-black-bg tm-contact-form-container tm-align-right">
               <form action="" method="POST" id="contact-form">
                 <div class="tm-form-group">
-                  <input type="text" name="name" class="tm-form-control" placeholder="Name" required="" />
+                  <input type="text" name="name" class="tm-form-control" placeholder="Nome" required="" />
                 </div>
 
                 <div class="tm-form-group">
@@ -272,7 +266,7 @@
                 </div>  
 
                 <div class="tm-form-group tm-mb-30">
-                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
+                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Mensagem" required=""></textarea>
                 </div>        
                 <div>
 
@@ -287,8 +281,8 @@
       </div>    
     </div>
 
-    <footer class="tm-site-footer">
-      <p class="tm-black-bg tm-footer-text">Copyright 2024 Cafe - Design: <a href="https://www.facebook.com/mauricioS1000" class="tm-footer-link" rel="sponsored" target="_parent">Mauricio Brambila</a></p>
+    <footer class="tm-site-designer">
+      <p class="tm-black-bg tm-footer-text">Copyright 2025 Cafeteria - Design: Mauricio Brambila</p>
     </footer>
   </div>
     
